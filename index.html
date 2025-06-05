@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Altaf Nadaf - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <!-- Desktop Navigation -->
+    <nav id="desktop-nav">
+      <div class="logo">Aishwarya patil</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hamburger Navigation -->
+    <nav id="hamburger-nav">
+      <div class="logo">Aishwarya patil</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <section id="profile">
+      <div class="section__pic-container">
+        <img style="border-radius: 50%;" src="https://media.licdn.com/dms/image/v2/D4D35AQEhOGOR0iQHIw/profile-framedphoto-shrink_200_200/B4DZc.T9r4HkAY-/0/1749097110600?e=1749704400&v=beta&t=vBhWYIR6ZWdlDrw9m7gCRDfkvafi3wDvZKWApi1TEzE" alt="Aishwarya patil profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Aishwarya patil</h1>
+        <p class="section__text__p2">Software Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://aishupatil1.github.io/aishupatil-portfolio/Aishwarya_Patil_Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="https://banner2.cleanpng.com/20180529/str/avpsm7w6e.webp"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/aishwarya-patil-b18877297/'"
+          />
+          <img
+            src="https://pngimg.com/uploads/github/github_PNG23.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/aishupatil1'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="https://avatars.githubusercontent.com/u/95209308?v=4"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="https://static.vecteezy.com/system/resources/previews/002/212/368/non_2x/line-icon-for-experience-vector.jpg"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1+ years <br />Software Development</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="https://icons.veryicon.com/png/o/miscellaneous/zr_icon/education-experience.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.E. in Computer Science<br />Diploma in Computer Science</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Hi, I'm Altaf Nadaf, a software developer with a passion for building scalable and secure web applications. 
+              I specialize in Java, Python, JavaScript, and SQL, with hands-on experience in frameworks like Spring Boot and JDBC. 
+              I enjoy solving complex problems and collaborating with teams to deliver innovative solutions.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/5093/5093064.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='index.html#experience'"
+      />
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Web & Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYKW0niQX9tcMd7d6ytOIx6JvAiEvHLPV1xaZP3L-bPZtl9794voWXOi1dX5vhj86awMw&usqp=CAU"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYKW0niQX9tcMd7d6ytOIx6JvAiEvHLPV1xaZP3L-bPZtl9794voWXOi1dX5vhj86awMw&usqp=CAU"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYKW0niQX9tcMd7d6ytOIx6JvAiEvHLPV1xaZP3L-bPZtl9794voWXOi1dX5vhj86awMw&usqp=CAU"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYKW0niQX9tcMd7d6ytOIx6JvAiEvHLPV1xaZP3L-bPZtl9794voWXOi1dX5vhj86awMw&usqp=CAU"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYKW0niQX9tcMd7d6ytOIx6JvAiEvHLPV1xaZP3L-bPZtl9794voWXOi1dX5vhj86awMw&usqp=CAU"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C Language</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYKW0niQX9tcMd7d6ytOIx6JvAiEvHLPV1xaZP3L-bPZtl9794voWXOi1dX5vhj86awMw&usqp=CAU"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYKW0niQX9tcMd7d6ytOIx6JvAiEvHLPV1xaZP3L-bPZtl9794voWXOi1dX5vhj86awMw&usqp=CAU"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYKW0niQX9tcMd7d6ytOIx6JvAiEvHLPV1xaZP3L-bPZtl9794voWXOi1dX5vhj86awMw&usqp=CAU"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYKW0niQX9tcMd7d6ytOIx6JvAiEvHLPV1xaZP3L-bPZtl9794voWXOi1dX5vhj86awMw&usqp=CAU"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frameworks & Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYKW0niQX9tcMd7d6ytOIx6JvAiEvHLPV1xaZP3L-bPZtl9794voWXOi1dX5vhj86awMw&usqp=CAU"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Spring Boot</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYKW0niQX9tcMd7d6ytOIx6JvAiEvHLPV1xaZP3L-bPZtl9794voWXOi1dX5vhj86awMw&usqp=CAU"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JDBC</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYKW0niQX9tcMd7d6ytOIx6JvAiEvHLPV1xaZP3L-bPZtl9794voWXOi1dX5vhj86awMw&usqp=CAU"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYKW0niQX9tcMd7d6ytOIx6JvAiEvHLPV1xaZP3L-bPZtl9794voWXOi1dX5vhj86awMw&usqp=CAU"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Eclipse</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYKW0niQX9tcMd7d6ytOIx6JvAiEvHLPV1xaZP3L-bPZtl9794voWXOi1dX5vhj86awMw&usqp=CAU"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>IntelliJ IDEA</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYKW0niQX9tcMd7d6ytOIx6JvAiEvHLPV1xaZP3L-bPZtl9794voWXOi1dX5vhj86awMw&usqp=CAU"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>VS Code</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/5093/5093064.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='index.html#projects'"
+      />
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://wittiersoft.weebly.com/uploads/5/9/9/7/59976013/s978096914469882725_p5_i4_w300.jpeg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">E-Book Management System</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Altafalinadaf/BookWebApplication'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Altafalinadaf/BookWebApplication'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://images.all-free-download.com/images/thumbjpg/travel_icons_collection_tourism_objects_sketch_6941712.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Travel Website</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Altafalinadaf/travelling-page'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Altafalinadaf/travelling-page'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="https://i.pinimg.com/236x/21/ae/30/21ae303c21137753bc2621eb53ed99bd.jpg"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Audi Web Page</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Altafalinadaf/audi-web-page'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Altafalinadaf/audi-web-page'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/5093/5093064.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='index.html#contact'"
+      />
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="https://e7.pngegg.com/pngimages/745/644/png-clipart-email-logo-icon-email-black-envelope-logo-miscellaneous-text-thumbnail.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:altafalinadaf@gmail.com">altafalinadaf@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="https://banner2.cleanpng.com/20180529/str/avpsm7w6e.webp"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/altafas-nadaf">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Altaf Nadaf. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
